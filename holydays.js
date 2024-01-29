@@ -1221,8 +1221,8 @@ var HolyDays = function () {
     //     $('#latLongName').text(name);
     //   }
     //   show('');
-    //   // var apiKey = 'AIzaSyBLB7lOsVHnNgmm5hyK8bX2rQ4tkhSnRw8';
-    //   var apiKey = 'AIzaSyAViPfLO7wINRKmt6uDGQ5Jfgnec-jjtCY';
+    //   // var apiKey = '';
+    //   var apiKey = '';
 
     //   var url = 'http://maps.googleapis.com/maps/api/geocode/json?key=' + apiKey + '&latlng=' + _locationLat + ',' + _locationLong
     //   $.ajax({
