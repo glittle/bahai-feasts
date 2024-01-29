@@ -1,0 +1,416 @@
+body.page.page-one-column:not(.twentyseventeen-front-page) div#primary {
+    max-width: none;
+}
+
+.help {
+    cursor: help;
+    background: url(info2.gif) bottom no-repeat;
+    height: 13px;
+    width: 13px;
+    margin-left: 2px;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+#HolyDaysList {
+    font-size: 95%;
+    /* override page styles */
+    /* top options group */
+    /* year + number */
+    /* checkbox */
+    /* table */
+}
+
+#HolyDaysList #goNow.now {
+    opacity: 0.3;
+}
+
+#HolyDaysList.ShowEve .eveInfo {
+    display: inline;
+}
+
+#HolyDaysList.ShowToday td.Today {
+    display: table-cell;
+}
+
+#HolyDaysList.ShowToday tr.Today {
+    display: table-row;
+}
+
+#HolyDaysList.ShowSunset span.Sunrise {
+    display: inline;
+}
+
+#HolyDaysList.ShowSunset th.Sunset,
+#HolyDaysList.ShowSunset td.Sunset {
+    display: table-cell;
+}
+
+#HolyDaysList.ShowSunset div.Sunset {
+    display: block;
+}
+
+#HolyDaysList.ShowSunset span.Sunset {
+    display: inline;
+}
+
+#HolyDaysList tr.Today td.Sunset {
+    color: #bbb;
+}
+
+#HolyDaysList label {
+    display: inline-block;
+    margin: 0;
+}
+
+#HolyDaysList select {
+    height: auto;
+}
+
+#HolyDaysList button {
+    margin: 0 3px;
+    padding: 1px 5px 0px 5px;
+    font-size: 90%;
+    border-radius: 3px;
+    background-color: #99e4ae;
+    font-weight: normal;
+    color: #333;
+    box-shadow: 1px 1px 2px 0px #ddd;
+}
+
+#HolyDaysList .SelectorArea {
+    margin-bottom: 10px;
+}
+
+#HolyDaysList .Selectors {
+    display: block;
+    margin: 0 6px 0px 0;
+    padding: 0;
+}
+
+#HolyDaysList .Selectors input {
+    margin: 0;
+}
+
+#HolyDaysList .Selectors label {
+    padding-left: 5px;
+}
+
+#HolyDaysList p.Beta {
+    margin-bottom: 25px;
+}
+
+#HolyDaysList .Clear {
+    clear: left;
+}
+
+#HolyDaysList .SelectorArea {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+#HolyDaysList .SelectorOptions {
+    float: left;
+    margin: 0 10px 0 5px;
+}
+
+#HolyDaysList .Selectors div.YearSelect {
+    margin: 0 0 8px 0;
+    display: inline-block;
+}
+
+#HolyDaysList .Selectors>Span {
+    display: inline-block;
+    line-height: 10px;
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px;
+    margin: 0 4px 0 0;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#HolyDaysList .Selectors label {
+    cursor: pointer;
+}
+
+#HolyDaysList .SelectorOptions>span {
+    display: block;
+}
+
+#HolyDaysList .SelectorArea .YearComment {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#HolyDaysList #getLocation {
+    margin-left: 15px;
+}
+
+#HolyDaysList .Hidden {
+    display: none;
+}
+
+#HolyDaysList .Selectors input {
+    display: inline;
+    vertical-align: middle;
+}
+
+#HolyDaysList table#List {
+    background-color: #DED6D4;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 3px;
+    margin: 0;
+}
+
+#HolyDaysList #List td.Num,
+#HolyDaysList #List th.Num {
+    text-align: center;
+}
+
+#HolyDaysList #List td,
+#HolyDaysList #List th {
+    padding: 8px 10px 8px 10px;
+    white-space: nowrap;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+#HolyDaysList #List th.Gregorian {
+    font-weight: normal;
+}
+
+#HolyDaysList #List th.Num {
+    font-weight: normal;
+}
+
+#HolyDaysList #List td.FastTimes {
+    white-space: nowrap;
+}
+
+#HolyDaysList td.blank {
+    background-color: #f9f7f5;
+}
+
+#HolyDaysList td.ForFeast,
+#HolyDaysList td.ForStartTime,
+#HolyDaysList th.ForFeast,
+#HolyDaysList th.ForStartTime,
+#HolyDaysList tr.Feast,
+#HolyDaysList tr.HolyDay,
+#HolyDaysList tr.Fast,
+#HolyDaysList .Today,
+#HolyDaysList tr.OtherDay {
+    display: none;
+}
+
+#HolyDaysList .List.ShowFeast tr.Feast {
+    display: table-row;
+}
+
+#HolyDaysList .List.ShowFeast td.ForFeast {
+    display: table-cell;
+}
+
+#HolyDaysList .List.ShowFeast th.ForFeast {
+    display: table-cell;
+}
+
+#HolyDaysList .List.ShowFast tr.Fast {
+    display: table-row;
+}
+
+#HolyDaysList .List.ShowHolyDay tr.HolyDay {
+    display: table-row;
+}
+
+#HolyDaysList .List.ShowHolyDay td.ForStartTime,
+#HolyDaysList .List.ShowHolyDay th.ForStartTime {
+    display: table-cell;
+}
+
+#HolyDaysList .List.ShowOther tr.OtherDay {
+    display: table-row;
+}
+
+#HolyDaysList tr#NoSelection {
+    display: none;
+    background: #fee;
+}
+
+#HolyDaysList tr#NoSelection td {
+    font-style: italic;
+    text-align: center;
+    padding-right: 300px;
+}
+
+#HolyDaysList .List.NoSelection tr#NoSelection {
+    display: table-row;
+}
+
+#HolyDaysList .Feast,
+#HolyDaysList tr.Feast,
+#HolyDaysList select.Feast {
+    background-color: #E7E1DE;
+}
+
+#HolyDaysList td.Feast:hover,
+#HolyDaysList tr.Feast:hover {
+    background-color: #F7F1EE;
+}
+
+#HolyDaysList .HolyDayHS {
+    background-color: #C7E1CE;
+}
+
+#HolyDaysList tr.HolyDayHS:hover {
+    background-color: #D7F1DE;
+}
+
+#HolyDaysList .HolyDayHO {
+    background-color: #D7F1DE;
+}
+
+#HolyDaysList tr.HolyDayHO:hover {
+    background-color: #E7F1EE;
+}
+
+#HolyDaysList .OtherDay {
+    background-color: #f8f2ef;
+}
+
+#HolyDaysList tr.OtherDay:hover {
+    background-color: #ffffff;
+}
+
+#HolyDaysList .Today {
+    background-color: #f1c1f6;
+}
+
+#HolyDaysList tr.Today:hover {
+    background-color: #ffffff;
+}
+
+#HolyDaysList .Fast {
+    background-color: #F1DED7;
+}
+
+#HolyDaysList tr.Fast:hover {
+    background-color: #FFEEE7;
+}
+
+#HolyDaysList tr.NotDefined {
+    background-color: #f8f2ef;
+    color: red;
+}
+
+#HolyDaysList #List tr.NotDefined td {
+    padding: 1em 0;
+    text-align: center;
+    font-style: italic;
+}
+
+#HolyDaysList td.Time,
+#HolyDaysList th.Time {
+    text-align: center;
+}
+
+#HolyDaysList th.Num,
+#HolyDaysList td.Num {
+    text-align: center;
+}
+
+#HolyDaysList td.Name1,
+#HolyDaysList td.Name2 {
+    white-space: nowrap;
+}
+
+#HolyDaysList .eveInfo {
+    color: #aaa;
+    display: none;
+}
+
+#HolyDaysList label[for=ShowToday] {
+    color: #aaa;
+}
+
+#HolyDaysList.hasToday label[for=ShowToday] {
+    color: #000;
+}
+
+#HolyDaysList.hasToday.ShowSunset tr.Today td {
+    display: table-cell;
+}
+
+#HolyDaysList .Sunset,
+#HolyDaysList .Sunrise {
+    display: none;
+    text-align: center;
+}
+
+#HolyDaysList th.Sunset {
+    font-weight: normal;
+}
+
+#HolyDaysList div.Sunset {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 4px 7px;
+    line-height: normal;
+    font-style: italic;
+    text-align: left;
+    margin: 15px 0 0 0;
+}
+
+#HolyDaysList div.Sunset div {
+    margin: 10px 0 3px 0;
+}
+
+#HolyDaysList #lat,
+#HolyDaysList #long {
+    width: 90px;
+    margin-right: 10px;
+    text-align: right;
+    padding: 0 3px;
+    line-height: 1em;
+}
+
+#HolyDaysList .LatLong {
+    vertical-align: top;
+}
+
+#HolyDaysList .LatLong .Sunset {
+    margin-left: 19px;
+}
+
+#HolyDaysList .LatLong .Indent {
+    margin-left: 19px;
+}
+
+#HolyDaysList #latLongName {
+    text-align: left;
+    font-style: italic;
+}
+
+#HolyDaysList select#StartTime {
+    font-style: italic;
+}
+
+#HolyDaysList p.footer {
+    margin: 15px 0;
+    text-align: right;
+    font-style: italic;
+}
+
+#HolyDaysList #printBtnArea {
+    float: right;
+}
+
+/*
+.Selectors{
+  margin: 0 0 10px 3px;
+}
+.Selectors span{
+padding: 2px 6px 2px 1px;
+}
+*/
